@@ -21,8 +21,8 @@ Python::
 
 *********************************************
 
-The REST API endpoint is `/_bulk`, and it expects the following JSON
-structure:
+The REST API endpoint is `/_bulk`, and it expects the following request 
+body, composed of newline delimited JSON objects:
 
 [source,js]
 --------------------------------------------------
